@@ -1,0 +1,89 @@
+[
+{
+    "model": "catalog.category",
+    "pk": 9,
+    "fields": {
+        "name": "Игрушки",
+        "description": "Товары для детей"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 10,
+    "fields": {
+        "name": "Детское питание",
+        "description": "Питание для самых маленьких"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 11,
+    "fields": {
+        "name": "Игрушки",
+        "description": "Товары для детей"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 12,
+    "fields": {
+        "name": "Детское питание",
+        "description": "Питание для самых маленьких"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 13,
+    "fields": {
+        "name": "Игрушки",
+        "description": "Товары для детей"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 14,
+    "fields": {
+        "name": "Детское питание",
+        "description": "Питание для самых маленьких"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+        "name": "Смесь на основе козьего молока",
+        "description": "Для детей, страдающих проблемами пищеварения",
+        "image": "",
+        "category": null,
+        "price": 1200.0,
+        "created_at": "2025-03-12",
+        "updated_at": "2025-03-12"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+        "name": "Пюре из зеленого яблока",
+        "description": "Для первого прикорма",
+        "image": "",
+        "category": null,
+        "price": 54.0,
+        "created_at": "2025-03-12",
+        "updated_at": "2025-03-12"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+        "name": "Смесь на основе козьего молока",
+        "description": "Для детей, страдающих проблемами пищеварения",
+        "image": "",
+        "category": 14,
+        "price": 1200.0,
+        "created_at": "2025-03-12",
+        "updated_at": "2025-03-12"
+    }
+}
+]
