@@ -5,13 +5,15 @@ class Category(models.Model):
     name = models.CharField(max_length=150, verbose_name='Категория')
     description = models.TextField(verbose_name='Описание категории')
 
-    def __str__(self):
-        return self.name
 
     class Meta:
         verbose_name = 'категория'
         verbose_name_plural = 'категории'
         ordering = ['name',]
+
+
+    def __str__(self):
+        return self.name
 
 
 class Product(models.Model):
@@ -33,14 +35,16 @@ class Product(models.Model):
         null=True,
         blank=True,
     )
-    price = models.FloatField(verbose_name='Цена товара')
+    price = models.DecimalField(max_digits=6, decimal_places=2, verbose_name='Цена товара')
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
 
-    def __str__(self):
-        return self.name
 
     class Meta:
         verbose_name = 'продукт'
         verbose_name_plural = 'продукты'
         ordering = ['name',]
+
+
+    def __str__(self):
+        return self.name
